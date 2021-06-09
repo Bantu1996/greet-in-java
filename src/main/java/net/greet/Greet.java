@@ -19,9 +19,9 @@ class Greet {
             if (typedName.length == 1) {
                 try {
                     command = typedName[0];
-                    System.out.println("Hi, " + command);
+                    System.out.println("Hi, ");
                 }catch (Exception e){
-                    command = typedName[0];
+//                    command = typedName[0];
                 }
                 command = typedName[0];
             } else if (typedName.length == 2) {
